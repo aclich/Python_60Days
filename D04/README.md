@@ -6,7 +6,7 @@ Cupoy Python資料科學 課程作業 D04 NumPy 陣列邏輯函式 (Logic functi
 作業目標:  
 熟悉邏輯運算<br>
 作業重點:<br>
-</br>  
+五大類邏輯函式與其對應的函式操作</br>  
 
 題目:<br>
 english_score = np.array([55,89,76,65,48,70])<br>
