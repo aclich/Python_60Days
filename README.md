@@ -1,5 +1,4 @@
-# Python_60Days
-[課程網址](https://www.cupoy.com/marathon/00000174C4BC1B93000000016375706F795F70726572656C656173654355)
+# Python_60Days [課程網址](https://www.cupoy.com/marathon/00000174C4BC1B93000000016375706F795F70726572656C656173654355)  
 Cupoy Python資料科學 課程作業  
 目錄:
 * [D01 NumPy 套件基本操作](https://github.com/aclich/Python_60Days/tree/main/D01) </br>
