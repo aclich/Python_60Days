@@ -1,45 +1,46 @@
 # Cupoy-Course-D06
-[課程網址](https://www.cupoy.com/marathon-mission/00000174C4BC1B93000000016375706F795F70726572656C656173654355/00000175493C2AF4000000216375706F795F72656C656173654349/)
-<!--Cupoy Python資料科學 課程作業 D04 NumPy 陣列邏輯函式 (Logic functions)</br>
+[課程網址](https://www.cupoy.com/marathon-mission/00000174C4BC1B93000000016375706F795F70726572656C656173654355/00000175493C2AF4000000216375706F795F72656C656173654349/)  
+Cupoy Python資料科學 課程作業 D04 NumPy 陣列邏輯函式 (Logic functions)</br>
 </br>
 
-作業目標:  
-熟悉邏輯運算<br>
+作業目標<br>
+讀取存取陣列資料<br>
 作業重點<br>
-五大類邏輯函式與其對應的函式操作  
-作業重點:  
-學員需要複習log的轉換方式  
-熟悉運用指數函數以及對數函數  
+多陣列存一起需要存成npz，讀取須注意npz中有多個陣列 
 </br>  
 
 題目:<br>
-english_score = np.array([55,89,76,65,48,70])<br>
-math_score = np.array([60,85,60,68,55,60])<br>
-chinese_score = np.array([65,90,82,72,66,77])<br>
-上3列共六位同學的英文、數學、國文成績，第一個元素代表第一位同學，舉例第一位同學英文55分、數學60分、國文65分，運用上列數據回答下列問題。<br>
-1. 有多少學生英文成績比數學成績高?  
-2. 是否全班同學最高分都是國文?  
+1. 將下兩列array存成npz檔<br>
+array1 = np.array(range(30))<br>
+array2 = np.array([2,3,5])<br>
+2. 讀取剛剛的npz檔，加入下列array一起存成新的npz檔   
 
 ```py
+#. 將下兩列array存成npz檔
+array1 = np.array(range(30))
+array2 = np.array([2,3,5])
 import numpy as np
-english_score = np.array([55,89,76,65,48,70])
-math_score = np.array([60,85,60,68,55,60])
-chinese_score = np.array([65,90,82,72,66,77])
+with open('hw.npz', 'wb') as f:
+    np.savez(f,array1=array1,array2=array2)
 ```
 
 ```py
-#1.有多少學生英文成績比數學成績高?
-np.count_nonzero(np.array(english_score>math_score) == True )
-```
-```
-output: 3
+#2. 讀取剛剛的npz檔，加入下列array一起存成新的npz檔
+array3 = np.array([[4,5,6], [1,2,3]])
+npzfile=np.load('hw.npz')
+with open('hw2.npz', 'wb') as f:
+    np.savez(f,array1=npzfile['array1'],array2=npzfile['array2'],array3=array3)
 ```
 
 ```py
-#2.是否全班同學最高分都是國文?
-np.all(np.array(np.logical_and(chinese_score > math_score,chinese_score > english_score)))
+npzfile=np.load('hw2.npz')
+for i in npzfile:
+    print(i,npzfile[i])
 ```
 ```
-output: True
+output: 
+    array1 [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29]
+    array2 [2 3 5]
+    array3 [[4 5 6]
+            [1 2 3]]
 ```
--->
