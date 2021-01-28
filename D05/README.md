@@ -1,6 +1,6 @@
 # Cupoy-Course-D05
 [課程網址](https://www.cupoy.com/marathon-mission/00000174C4BC1B93000000016375706F795F70726572656C656173654355/00000175492912FB0000001E6375706F795F72656C656173654349/)  
-Cupoy Python資料科學 課程作業 D04 NumPy 陣列邏輯函式 (Logic functions)</br>
+Cupoy Python資料科學 課程作業 D05 NumPy 統計函式 Universal Functions (ufunc)</br>
 </br>
 
 作業目標<br>
