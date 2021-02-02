@@ -28,7 +28,7 @@ boston_data.boxplot()
 #ANS: TAX & B 的中位數在300~400之間
 ```
 
-output:
+output:  
 ![out2](plot02.png)
 
 ```py
@@ -42,5 +42,5 @@ plt.show()
 #ANS : 此兩欄位呈反比
 ```
 
-output:
+output:  
 ![out3](plot03.png)
