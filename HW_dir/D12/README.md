@@ -28,8 +28,8 @@ boston_data.boxplot()
 #ANS: TAX & B 的中位數在300~400之間
 ```
 
-output:
-![out2](plot02.PNG)
+output:  
+![out2](plot02.png)
 
 ```py
 #2. 畫出散佈圖 x='NOX', y='DIS' ，並說明這兩欄位有什麼關係?
@@ -42,5 +42,5 @@ plt.show()
 #ANS : 此兩欄位呈反比
 ```
 
-output:
-![out3](plot03.PNG)
+output:  
+![out3](plot03.png)
