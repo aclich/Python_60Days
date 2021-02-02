@@ -67,7 +67,7 @@ else:
 ```
 output:
     NO, 6號學生3科平均分數沒有超過班上一半同學
-    6_average:56.333333333333336 class_average_med:62.8
+    6_average:56.333333333333336 class_average_med:59.833333333333336
 ```
 
 ```py
