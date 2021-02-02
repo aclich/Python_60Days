@@ -29,7 +29,7 @@ boston_data.boxplot()
 ```
 
 output:
-![out2](plot02.PNG)
+![out2](plot02.png)
 
 ```py
 #2. 畫出散佈圖 x='NOX', y='DIS' ，並說明這兩欄位有什麼關係?
@@ -43,4 +43,4 @@ plt.show()
 ```
 
 output:
-![out3](plot03.PNG)
+![out3](plot03.png)
