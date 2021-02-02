@@ -23,7 +23,7 @@ q_df = pd.DataFrame([['male', 'teacher'],
 q_df
 ```
 
-output:
+output:  
 ![out1](out1.PNG)
 
 ```py
@@ -32,7 +32,7 @@ q_df=q_df.fillna('others')
 q_df
 ```
 
-output:
+output:  
 ![out2](out2.PNG)
 
 ```py
@@ -42,5 +42,5 @@ q_df=pd.get_dummies(q_df)
 q_df
 ```
 
-output:
+output:  
 ![out3](out3.PNG)
