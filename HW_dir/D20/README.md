@@ -1,6 +1,6 @@
-# Cupoy-Course-D19
-[課程網址](https://www.cupoy.com/marathon-mission/00000174C4BC1B93000000016375706F795F70726572656C656173654355/00000176E11A55A90000001B6375706F795F72656C656173654349/)  
-Cupoy Python資料科學 課程作業 D19 使用 Matplotlib 繪製各種常用圖表</br>
+# Cupoy-Course-D20
+[課程網址](https://www.cupoy.com/marathon-mission/00000174C4BC1B93000000016375706F795F70726572656C656173654355/0000017549731EBC000000256375706F795F72656C656173654349/)  
+Cupoy Python資料科學 課程作業 D20 使用 Seaborn 進行資料視覺化</br>
 
 **主要目標:**
     作業目標(1): 繪製模型殘差 圖型
