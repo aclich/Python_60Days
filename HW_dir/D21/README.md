@@ -155,3 +155,24 @@ plt.show()
 output:  
 ![image7](image7.png)
 ![image8](image8.png)
+
+```py
+g = sns.FacetGrid( df, col='sex' )
+g.map( sns.barplot, 'pclass', 'survived', ci=None, order=[1,2,3], palette='Blues' )
+plt.show()
+```
+output:  
+![image9](image9.png)
+
+```py
+n = sns.FacetGrid(data=df, col="survived", hue="survived")
+n.map(sns.histplot,'sex','class',data=df,legend=True,stat="count",cbar=True)
+plt.show
+
+n = sns.FacetGrid(data=df, col="survived", hue="survived")
+n.map(sns.histplot,'sex','class',data=df,legend=True,stat="probability",cbar=True)
+plt.show
+```
+output:  
+![image10](image10.png)
+![image11](image11.png)
